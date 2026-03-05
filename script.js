@@ -15,7 +15,7 @@ const scenario = {
     sound: './sound/horror-background.mp3',
     },
     two: {
-      image: './images/rustykey.jpg',
+      image: './images/RustyKey.jpg',
       text: "It’s a dead end. However, you can see a metal key glimmering in the light of your torch on the floor. Pick it up?",
       buttons: [
         {name: 'Yes.', action: 'pickUpKey()'},
@@ -75,7 +75,7 @@ const scenario = {
       ],
     },
     six: {
-      image: './images/skeleton_table.jpg',
+      image: './images/Skeleton_table.jpg',
       text: 'Suddenly, the remains come to life! “Traveler”, the body says with a creaking voice “release me! Please! I beg you! I have been cursed to remain here for eternity, until I finish all the dishes on this table. Now, since I haven’t the facilities to accomplish this task anymore, I’ll ask you, Traveler, to help me…you look a bit hungry…” You swear he is staring directly into your eyes with those empty eye sockets of his.………you do feel a bit hungry…Sit at the table?',
       buttons: [
         { name: 'Yes.', action: 'advanceTo(scenario.seven)' },
@@ -84,7 +84,7 @@ const scenario = {
       sound: './sound/suspense-2.mp3',
     },
     seven: {
-      image: './images/skeleton_table.jpg',
+      image: './images/Skeleton_table.jpg',
       text: 'You decide to sit in the empty chair. You look at the living skeleton in front of you, and despite the fact that he no longer has any skin or muscles to show any facial expressions, you feel as though he is grinning slightly. “You see,”, he says. “I was trapped here by the King of Thieves, because I was after his bounty. You want this treasure too, don’t you?” Indeed you do, you entered this dungeon in search of the riches rumored to still remain in the depths of this dungeon. “Come then, help me break this curse and I’ll tell you where you can find the treasure.” ',
       buttons: [
         { name: '"Okay."', action: 'advanceTo(scenario.eight)' },
@@ -92,7 +92,7 @@ const scenario = {
       ],
     },
     eight: {
-      image: './images/skeleton_table.jpg',
+      image: './images/Skeleton_table.jpg',
       text: '“Great! It is quite simple, really – all you have to do is drink the contents of this chalice in one go, and I can finally rest.” A cup appears in front of you, filled to the brim with a dark liquid. You can see your face reflected in the liquid’s surface. Drink it?',
       buttons: [
         { name: 'Yes', action: 'advanceTo(scenario.ten)' },
@@ -329,3 +329,4 @@ document.querySelector('#btnStart')
     // Got scenario two
     advanceTo(scenario.two);
 });*/
+
