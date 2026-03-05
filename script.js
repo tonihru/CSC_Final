@@ -24,7 +24,7 @@ const scenario = {
       sound: './sound/horror-background.mp3',
     },
     three: {
-      image: './images/dungeon_start.jpg',
+      image: './images/dungeon_start.jpeg',
       text: 'You enter a small room. To your left, you can make out a wooden door with a metal lock. The rest of the room is still shrouded in darkness. Do you move into the room or go to the door?',
       buttons: [
         { name: 'Go to the Door.', action: 'advanceTo(scenario.door)' },
@@ -329,4 +329,5 @@ document.querySelector('#btnStart')
     // Got scenario two
     advanceTo(scenario.two);
 });*/
+
 
